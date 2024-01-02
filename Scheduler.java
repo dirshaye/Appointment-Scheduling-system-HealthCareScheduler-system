@@ -22,6 +22,27 @@ abstract class Person {
     public String getContactNumber() {
         return contactNumber;
     }
+ // Method for displaying basic information
+    public void displayInformation() {
+        System.out.println("Name: " + name);
+        System.out.println("Contact Number: " + contactNumber);
+    }
+
+    // Method overloading #1: Display information with an additional message
+    public void displayInformation(String additionalMessage) {
+        System.out.println(additionalMessage);
+        displayInformation(); // Reusing the existing method
+    }
+
+    // Method overloading #2: Display information with age
+    public void displayInformation(int age) {
+        System.out.println("Age: " + age);
+        displayInformation(); // Reusing the existing method
+    }
+    // Method overloading #3: Display information with a custom label
+    public void displayInformation(String customLabel, String value) {
+    System.out.println(customLabel + ": " + value);
+}
 
     // Static nested class representing contact information
     static class ContactInformation {
