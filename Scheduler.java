@@ -11,7 +11,7 @@ abstract class Person {
     private String contactNumber;
 
     /**
-     * Constructor initializing the person with name and contact number.
+     *  Constructor initializing the person with name and contact number.
      * @param name Name of the person.
      * @param contactNumber Contact number of the person.
      */
