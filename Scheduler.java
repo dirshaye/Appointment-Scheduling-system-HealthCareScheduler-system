@@ -9,7 +9,7 @@ import java.util.ArrayList;
 abstract class Person {
     private String name;
     private String contactNumber;
-
+ 
     /**
      *  Constructor initializing the person with name and contact number.
      * @param name Name of the person.
