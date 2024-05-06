@@ -17,7 +17,7 @@ abstract class Person {
      */
     public Person(String name, String contactNumber) {
         this.name = name;
-        this.contactNumber = contactNumber;
+        this.contactNumber = contactNumber; 
     }
 
     /**
