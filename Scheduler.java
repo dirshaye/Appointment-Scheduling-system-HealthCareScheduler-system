@@ -15,7 +15,7 @@ abstract class Person {
      * @param name Name of the person.
      * @param contactNumber Contact number of the person.
      */
-    public Person(String name, String contactNumber) {
+    public Person(String name, String contactNumber) { 
         this.name = name;
         this.contactNumber = contactNumber; 
     }
