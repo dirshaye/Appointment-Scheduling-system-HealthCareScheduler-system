@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 import java.util.List;
-import java.util.ArrayList; 
+import java.util.ArrayList;  
 
 /**
  * Abstract class representing a person and contact details.
