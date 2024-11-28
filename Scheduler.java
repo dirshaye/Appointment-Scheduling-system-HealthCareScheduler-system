@@ -21,7 +21,7 @@ abstract class Person {
     }
 
     /**
-     * Gets the name of the person.  
+     * Gets the name of the person.   
      * @return Name of the person.
      */
     public String getName() { 
